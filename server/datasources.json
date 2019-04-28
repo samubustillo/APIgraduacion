@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "aws-salud": {
+    "host": "dbsalud.ctmquk9xizmn.us-east-2.rds.amazonaws.com",
+    "port": 3306,
+    "url": "",
+    "database": "adminsalud",
+    "password": "ceutec1*",
+    "name": "aws-salud",
+    "user": "sb",
+    "connector": "mysql"
+  }
+}

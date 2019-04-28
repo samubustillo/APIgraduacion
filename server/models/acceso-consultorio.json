@@ -1,0 +1,30 @@
+{
+  "name": "accesoConsultorio",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idAccesoConsultorio": {
+      "type": "number",
+      "id": true
+    },
+    "idAcceso": {
+      "type": "number",
+      "required": true
+    },
+    "idConsultorio": {
+      "type": "number",
+      "required": true
+    },
+    "idEmpleado": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,33 @@
+{
+  "name": "empleado",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idEmpleado": {
+      "type": "number",
+      "id": true
+    },
+    "nombres": {
+      "type": "string",
+      "required": true
+    },
+    "especialidad": {
+      "type": "string"
+    },
+    "idTipoEmpleado": {
+      "type": "number",
+      "required": true
+    },
+    "correo": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

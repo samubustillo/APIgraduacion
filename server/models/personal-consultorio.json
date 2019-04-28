@@ -1,0 +1,30 @@
+{
+  "name": "personalConsultorio",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idPersonalConsultorio": {
+      "type": "number",
+      "id": true
+    },
+    "idConsultorio": {
+      "type": "number",
+      "required": true
+    },
+    "idEmpleado": {
+      "type": "number",
+      "required": true
+    },
+    "doctorPrincipal": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

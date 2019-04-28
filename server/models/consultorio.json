@@ -1,0 +1,28 @@
+{
+  "name": "consultorio",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idConsultorio": {
+      "type": "number",
+      "id": true
+    },
+    "consultorio": {
+      "type": "string",
+      "required": true
+    },
+    "ubicacion": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
