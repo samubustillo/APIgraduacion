@@ -1,20 +1,24 @@
 {
-  "name": "usuarioConsultorio",
+  "name": "pacientesConsultorio",
   "base": "PersistedModel",
-  "idInjection": false,
+  "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "idUsuarioConsultorio": {
+    "idPacientesConsultorio": {
       "type": "number",
       "id": true
+    },
+    "idConsultorio": {
+      "type": "number",
+      "required": true
     },
     "idUsuario": {
       "type": "number",
       "required": true
     },
-    "idConsultorio": {
+    "idSeguro": {
       "type": "number",
       "required": true
     }

@@ -10,16 +10,32 @@
       "type": "number",
       "id": true
     },
-    "nombre": {
+    "nombres": {
       "type": "string"
     },
     "correo": {
       "type": "string",
       "required": true
     },
+    "password": {
+      "type": "string",
+      "required": false
+    },
+    "fechaNacimiento": {
+      "type": "string",
+      "required": false
+    },
     "urlImagen": {
       "type": "string",
       "required": false
+    },
+    "idTipoUsuario": {
+      "type": "number",
+      "required": true
+    },
+    "recepcionista": {
+      "type": "number",
+      "required": true
     }
   },
   "validations": [],

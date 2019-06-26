@@ -1,32 +1,29 @@
 {
-  "name": "consultorio",
+  "name": "recibo",
   "base": "PersistedModel",
-  "idInjection": false,
+  "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "idConsultorio": {
+    "idRecibo": {
       "type": "number",
       "id": true
     },
-    "consultorio": {
-      "type": "string",
+    "idCita": {
+      "type": "number",
       "required": true
     },
-    "ubicacion": {
-      "type": "string"
-    },
-    "telefono": {
-      "type": "string"
-    },
-    "doctor": {
-      "type": "string"
-    },
-    "precio": {
+    "subtotal": {
       "type": "number"
     },
-    "idEspecialidad": {
+    "descuento": {
+      "type": "number"
+    },
+    "total": {
+      "type": "number"
+    },
+    "recepcionista": {
       "type": "number"
     }
   },

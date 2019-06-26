@@ -1,0 +1,21 @@
+{
+  "name": "seguro",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idSeguro": {
+      "type": "number",
+      "id": true
+    },
+    "seguro": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

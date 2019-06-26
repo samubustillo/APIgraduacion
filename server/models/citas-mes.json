@@ -1,22 +1,20 @@
 {
-  "name": "usuarioConsultorio",
+  "name": "citasMes",
   "base": "PersistedModel",
-  "idInjection": false,
+  "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "idUsuarioConsultorio": {
-      "type": "number",
+    "fecha": {
+      "type": "date",
       "id": true
     },
-    "idUsuario": {
-      "type": "number",
-      "required": true
+    "Citas": {
+      "type": "number"
     },
     "idConsultorio": {
-      "type": "number",
-      "required": true
+      "type": "number"
     }
   },
   "validations": [],

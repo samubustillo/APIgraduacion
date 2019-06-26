@@ -66,5 +66,81 @@
   "usuarioConsultorio": {
     "dataSource": "aws-salud",
     "public": true
+  },
+  "tipoUsuario": {
+    "dataSource": "aws-salud",
+    "public": true
+  },
+  "pacientesConsultorio": {
+    "dataSource": "aws-salud",
+    "public": true
+  },
+  "cita": {
+    "dataSource": "aws-salud",
+    "public": true
+  },
+  "citaDetalle": {
+    "dataSource": "aws-salud",
+    "public": true
+  },
+  "tipoNota": {
+    "dataSource": "aws-salud",
+    "public": true
+  },
+  "especialidad": {
+    "dataSource": "aws-salud",
+    "public": true
+  },
+  "seguro": {
+    "dataSource": "aws-salud",
+    "public": true
+  },
+  "seguroConsultorio": {
+    "dataSource": "aws-salud",
+    "public": true
+  },
+  "dia": {
+    "dataSource": "aws-salud",
+    "public": true
+  },
+  "horario": {
+    "dataSource": "aws-salud",
+    "public": true
+  },
+  "diaHorario": {
+    "dataSource": "aws-salud",
+    "public": true
+  },
+  "diaLibre": {
+    "dataSource": "aws-salud",
+    "public": true
+  },
+  "credencialConsultorio": {
+    "dataSource": "aws-salud",
+    "public": true
+  },
+  "recibo": {
+    "dataSource": "aws-salud",
+    "public": true
+  },
+  "prechequeo": {
+    "dataSource": "aws-salud",
+    "public": true
+  },
+  "razon": {
+    "dataSource": "aws-salud",
+    "public": true
+  },
+  "ingresosDetalle": {
+    "dataSource": "aws-salud",
+    "public": true
+  },
+  "citasMes": {
+    "dataSource": "aws-salud",
+    "public": true
+  },
+  "examen": {
+    "dataSource": "aws-salud",
+    "public": true
   }
 }

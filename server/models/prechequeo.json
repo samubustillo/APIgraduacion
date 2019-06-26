@@ -1,20 +1,28 @@
 {
-  "name": "usuarioConsultorio",
+  "name": "prechequeo",
   "base": "PersistedModel",
-  "idInjection": false,
+  "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "idUsuarioConsultorio": {
+    "idPreChequeo": {
       "type": "number",
       "id": true
     },
-    "idUsuario": {
-      "type": "number",
-      "required": true
+    "peso": {
+      "type": "number"
     },
-    "idConsultorio": {
+    "altura": {
+      "type": "number"
+    },
+    "temperatura": {
+      "type": "number"
+    },
+    "presion": {
+      "type": "number"
+    },
+    "idCita": {
       "type": "number",
       "required": true
     }

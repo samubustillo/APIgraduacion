@@ -4,13 +4,14 @@
     "connector": "memory"
   },
   "aws-salud": {
-    "host": "dbsalud.ctmquk9xizmn.us-east-2.rds.amazonaws.com",
+    "host": "databasesb.db.8985750.68f.hostedresource.net",
     "port": 3306,
     "url": "",
-    "database": "adminsalud",
-    "password": "ceutec1*",
+    "database": "databasesb",
+    "password": "Control1!",
     "name": "aws-salud",
-    "user": "sb",
-    "connector": "mysql"
+    "user": "databasesb",
+    "connector": "mysql",
+    "connectTimeout": 100000
   }
 }

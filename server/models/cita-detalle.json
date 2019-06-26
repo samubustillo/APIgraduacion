@@ -1,32 +1,22 @@
 {
-  "name": "consultorio",
+  "name": "citaDetalle",
   "base": "PersistedModel",
-  "idInjection": false,
+  "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "idConsultorio": {
+    "idCitaDetalle": {
       "type": "number",
       "id": true
     },
-    "consultorio": {
-      "type": "string",
-      "required": true
-    },
-    "ubicacion": {
+    "nota": {
       "type": "string"
     },
-    "telefono": {
-      "type": "string"
-    },
-    "doctor": {
-      "type": "string"
-    },
-    "precio": {
+    "idCita": {
       "type": "number"
     },
-    "idEspecialidad": {
+    "idTipoNota": {
       "type": "number"
     }
   },

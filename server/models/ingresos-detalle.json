@@ -1,0 +1,33 @@
+{
+  "name": "ingresosDetalle",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "fecha": {
+      "type": "date",
+      "id": true
+    },
+    "idConsultorio": {
+      "type": "number"
+    },
+    "nombres": {
+      "type": "string"
+    },
+    "seguro": {
+      "type": "string"
+    },
+    "total": {
+      "type": "number"
+    },
+    "recibido": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

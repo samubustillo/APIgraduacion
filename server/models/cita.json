@@ -1,32 +1,35 @@
 {
-  "name": "consultorio",
+  "name": "cita",
   "base": "PersistedModel",
-  "idInjection": false,
+  "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "idConsultorio": {
+    "idCita": {
       "type": "number",
       "id": true
     },
-    "consultorio": {
-      "type": "string",
+    "fecha": {
+      "type": "date",
       "required": true
     },
-    "ubicacion": {
+    "hora": {
       "type": "string"
     },
-    "telefono": {
-      "type": "string"
-    },
-    "doctor": {
-      "type": "string"
-    },
-    "precio": {
+    "idConsultorio": {
       "type": "number"
     },
-    "idEspecialidad": {
+    "idPaciente": {
+      "type": "number"
+    },
+    "comentarios": {
+      "type": "string"
+    },
+    "idEstadoCita": {
+      "type": "number"
+    },
+    "idRazon": {
       "type": "number"
     }
   },

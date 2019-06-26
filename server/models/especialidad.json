@@ -1,0 +1,21 @@
+{
+  "name": "especialidad",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idEspecialidad": {
+      "type": "number",
+      "id": true
+    },
+    "especialidad": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

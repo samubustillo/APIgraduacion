@@ -1,0 +1,30 @@
+{
+  "name": "diaHorario",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idDiaHorario": {
+      "type": "number",
+      "id": true
+    },
+    "idDia": {
+      "type": "number"
+    },
+    "idHorario": {
+      "type": "number"
+    },
+    "horaEntrada": {
+      "type": "string"
+    },
+    "horaSalida": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

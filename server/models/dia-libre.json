@@ -1,33 +1,26 @@
 {
-  "name": "consultorio",
+  "name": "diaLibre",
   "base": "PersistedModel",
-  "idInjection": false,
+  "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "idConsultorio": {
+    "idDiaLibre": {
       "type": "number",
       "id": true
     },
-    "consultorio": {
-      "type": "string",
-      "required": true
-    },
-    "ubicacion": {
-      "type": "string"
-    },
-    "telefono": {
-      "type": "string"
-    },
-    "doctor": {
-      "type": "string"
-    },
-    "precio": {
+    "idConsultorio": {
       "type": "number"
     },
-    "idEspecialidad": {
-      "type": "number"
+    "fecha": {
+      "type": "string"
+    },
+    "horaInicio": {
+      "type": "string"
+    },
+    "horaFinal": {
+      "type": "string"
     }
   },
   "validations": [],

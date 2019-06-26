@@ -1,0 +1,33 @@
+{
+  "name": "examen",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idExamen": {
+      "type": "number",
+      "id":true
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "idConsultorio": {
+      "type": "number"
+    },
+    "idPaciente": {
+      "type": "number"
+    },
+    "fechaCarga": {
+      "type": "date"
+    },
+    "url": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,20 +1,23 @@
 {
-  "name": "usuarioConsultorio",
+  "name": "seguroConsultorio",
   "base": "PersistedModel",
-  "idInjection": false,
+  "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "idUsuarioConsultorio": {
+    "idSeguroConsultorio": {
       "type": "number",
       "id": true
     },
-    "idUsuario": {
+    "idConsultorio": {
+      "type": "number"
+    },
+    "idSeguro": {
       "type": "number",
       "required": true
     },
-    "idConsultorio": {
+    "descuento": {
       "type": "number",
       "required": true
     }

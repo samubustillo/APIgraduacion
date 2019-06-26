@@ -1,18 +1,17 @@
 {
-  "name": "usuarioConsultorio",
+  "name": "razon",
   "base": "PersistedModel",
-  "idInjection": false,
+  "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "idUsuarioConsultorio": {
+    "idRazon": {
       "type": "number",
       "id": true
     },
-    "idUsuario": {
-      "type": "number",
-      "required": true
+    "razon": {
+      "type": "string"
     },
     "idConsultorio": {
       "type": "number",

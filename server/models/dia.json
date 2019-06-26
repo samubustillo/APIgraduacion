@@ -1,0 +1,21 @@
+{
+  "name": "dia",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idDia": {
+      "type": "number",
+      "id": true
+    },
+    "dia": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
